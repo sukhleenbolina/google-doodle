@@ -5,6 +5,13 @@
   * Outline Elements
 */
 
-* {
+ {
     outline: 1px dotted black;
+}
+
+/* Doodle Stage */
+#stage {
+  background: #ccc;
+  height: 300px;
+  width: 600px;
 }
