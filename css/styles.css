@@ -16,6 +16,7 @@
   width: 600px;
   position: relative;
   overflow: hidden;
+  
 }
 
 
@@ -126,7 +127,10 @@
   position: absolute;
   right: 330px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 572231c60996fc90b383d9e646f5377504de5c39
 
 #clocks {
   position: absolute;
@@ -138,8 +142,13 @@
   overflow: hidden;
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/16425/melting-clocks.png);
   background-position: 0 0;
+<<<<<<< HEAD
   animation: clock 1s steps(4) 3s;
   animation-fill-mode: forwards;
+=======
+  
+  animation: clock 1s steps(4) 3s;
+>>>>>>> 572231c60996fc90b383d9e646f5377504de5c39
 }
 
 
