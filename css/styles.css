@@ -16,7 +16,6 @@
   width: 600px;
   position: relative;
   overflow: hidden;
-  
 }
 
 
@@ -128,6 +127,7 @@
   right: 330px;
 }
 
+
 #clocks {
   position: absolute;
   left: 420px;
@@ -140,7 +140,6 @@
   background-position: 0 0;
   animation: clock 1s steps(4) 3s;
   animation-fill-mode: forwards;
-  animation: clock 1s steps(4) 3s;
 }
 
 
