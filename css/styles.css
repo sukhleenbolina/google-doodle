@@ -8,13 +8,16 @@
 
 
 /* Doodle Stage */
+/* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+ */
+/* Doodle Stage */
 #stage {
-  border: 1px solid;
   height: 300px;
   width: 600px;
   position: relative;
   overflow: hidden;
 }
+
 
 
 .box {
@@ -28,10 +31,10 @@
   top: 80px;
   font-size: 55px;
   padding:20px;
-  color: #000;
+  color: #fff;
   font-family: 'Rock Salt', cursive;
   font-weight: bold;
-  
+  opacity: 0%;
 }
 
 
@@ -43,6 +46,7 @@
 
 #box1 {
   animation:slide 1s ;
+  
 }
 
 #box2 {
@@ -60,19 +64,18 @@
 }
 
 #box5 {
-  animation:slide 2.5s ;
+  animation:slide 3s ;
 }
 
 #box6 {
   animation:slide 2s ;
 }
 
-
 #dali {
-  width: 25%;
-  height: 25%;
+  width: 75%;
+  height: 60%;
   position: relative;
-  left: 145px;
+  left: -2px;
   bottom: 100px; 
 }
 
@@ -123,23 +126,20 @@
   position: absolute;
   right: 330px;
 }
-  
+
 
 #clocks {
   position: absolute;
   left: 420px;
-  top: 140px;
+  top: 132px;
   width: 100px;
   height: 100px;
-  transform: rotate(-9deg);
+  transform: rotate(-20deg) scale(.8);
   overflow: hidden;
-
-/*    */
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/16425/melting-clocks.png);
-  
   background-position: 0 0;
-  
-  animation: clock 1s steps(4) infinite;
+  animation: clock 1s steps(4) 3s;
+  animation-fill-mode: forwards;
 }
 
 
@@ -148,4 +148,39 @@
     background-position: 0 -400px;
   }
   
+}
+
+
+.background{
+  height: 200px;
+  width: 600px;
+  z-index: -1;
+}
+
+.one {
+  background: #8CC0E8; 
+background: -webkit-linear-gradient(to top, #8CC0E8 , #4B82AC); 
+background: linear-gradient(to top, #8CC0E8 , #4B82AC); 
+background-repeat: no-repeat;        
+}
+
+.two {
+  background: #D38312;
+background: -webkit-linear-gradient(to top, #A3F5C9, #07FF7B); 
+background: linear-gradient(to top, #A3F5C9 , #07FF7B); 
+background-repeat: no-repeat;          
+}
+
+.three {
+  background: #FF8008;  
+background: -webkit-linear-gradient(to top, #FFC837 , #FF8008); 
+background: linear-gradient(to top, #FFC837 , #FF8008); 
+background-repeat: no-repeat;         
+}
+
+.four {
+  background: #FAB8FF;  
+background: -webkit-linear-gradient(to top, #FAB8FF , #EE32FC); 
+background: linear-gradient(to top, #FAB8FF , #EE32FC); 
+background-repeat: no-repeat;         
 }
