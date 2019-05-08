@@ -1,9 +1,8 @@
 console.log('OK');
 
-<<<<<<< HEAD
-=======
+
+
 // Store Background Classes
->>>>>>> 572231c60996fc90b383d9e646f5377504de5c39
 var bgs = ['one', 'two', 'three', 'four'];
 console.log(bgs);
 
